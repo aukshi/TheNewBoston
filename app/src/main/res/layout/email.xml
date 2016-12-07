@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="30">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Email address"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hateful intro"
+        android:id="@+id/textView5" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etIntro" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Person's Name"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Stupid things this person does"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etThings" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What do you want to do with this person"
+        android:id="@+id/textView6" />
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etAction" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outro"
+            android:id="@+id/textView7" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/etoutro" />
+
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_weight="40"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Send Email"
+        android:id="@+id/bSendEmail" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="30"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analogClock1"
+        android:foregroundGravity="center"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

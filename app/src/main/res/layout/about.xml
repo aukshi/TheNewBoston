@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is HalfPace private limited. We are currently just a bunch of kids doing nothing, but thats not going to be for a long cause we are going to build a cool application which is going to change the way you seek help and its also going to start a new era in Applicaion industry."
+        android:id="@+id/hp" />
+</LinearLayout>

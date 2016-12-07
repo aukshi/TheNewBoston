@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.myapp.thenewboston" >
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/energia"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="com.thenewboston.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu" >
+            <intent-filter>
+                <action android:name="com.thenewboston.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".prefs" >
+            <intent-filter>
+                <action android:name="com.thenewboston.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutUs"
+            android:theme="@android:style/Theme.Dialog"
+
+            >
+            <intent-filter>
+                <action android:name="com.thenewboston.AboutUs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TextPlay"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".SimpleBrowser"
+            android:label="Browser">
+        </activity>
+        <activity android:name=".flipper"
+            android:label="Flipper">
+        </activity>
+        <activity android:name=".SharedPrefs"
+            android:label="Shared Preferences">
+        </activity>
+        <activity android:name=".EmailPlay"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Camera"
+            android:label="Camera Application"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+            <activity android:name=".Data"
+                android:label="Send Data">
+            </activity>
+        <activity android:name=".SoundStuff"
+            android:label="SoundPool">
+        </activity>
+        <activity android:name=".Slider"
+            android:label="Slider">
+        </activity>
+        <activity android:name=".Tabs"
+            android:label="Tabs">
+        </activity>
+        <activity android:name=".GFX"
+            android:label="Graphics">
+        </activity>
+        <activity android:name=".GFXSurface"
+            android:label="Surface Graphics">
+        </activity>
+            <activity android:name=".OpenedClass"
+                android:label="@string/app_name">
+            </activity>
+
+        <activity android:name=".Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

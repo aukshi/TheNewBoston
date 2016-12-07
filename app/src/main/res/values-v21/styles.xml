@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Tryout1" parent="android:Theme.DeviceDefault.Light">
+        <item name="android:colorPrimary">@color/material_grey_50</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:colorForeground">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorAcc</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+    </style>
+</resources>
